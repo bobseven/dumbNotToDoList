@@ -8,13 +8,13 @@ const App = StackNavigator({
   Todos: {
       screen: Todos,
       navigationOptions: {
-        headerTitle: 'Not To Do List',
+        headerTitle: 'Pencarian',
       },
     },
     TodosCreate: {
         screen: TodosCreate,
         navigationOptions: {
-          headerTitle: 'Create Todos',
+          headerTitle: 'Cari',
         },
       }
 

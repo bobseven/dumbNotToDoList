@@ -21,7 +21,7 @@ handleSubmit(){
 <Content>
 <Form>
 <Item floatingLabel>
-<Label>Not To Do</Label>
+<Label>Search</Label>
 <input  onChangeText={(text) => this.setState({text})}/>
 
 
