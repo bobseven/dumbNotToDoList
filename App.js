@@ -14,7 +14,7 @@ const App = StackNavigator({
     TodosCreate: {
         screen: TodosCreate,
         navigationOptions: {
-          headerTitle: 'Cari',
+          headerTitle: 'Create Todos',
         },
       }
 
