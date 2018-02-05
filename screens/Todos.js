@@ -55,6 +55,15 @@ constructor(){
             <Icon name="add" />
 
           </Fab>
+          <Fab
+
+                style={{ backgroundColor: '#5067FF' }}
+                position="bottomLeft"
+                onPress={() => this.props.navigation.navigate('CariCreate')}>
+                <Icon name="add" />
+
+              </Fab>
+
       </Container>
     );
   }
